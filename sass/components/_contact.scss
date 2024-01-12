@@ -1,0 +1,60 @@
+#contact{
+    padding: 100px;
+    // margin-top: 100px;
+    background-color: $black-color;
+    // .contact_img{}
+    .contact_title{
+        h6{
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 600;
+            font-family: 'Ubuntu';
+            color: #8670EF;
+            text-transform: capitalize; 
+            margin-bottom: 15px; 
+        }
+        h2{
+            font-size: 60px;
+            font-family: 'Ubuntu';
+            font-weight: 600;
+            color: #fff;
+        }
+    }
+    .contact_form{
+        margin-bottom: 25px;
+        input, textarea, select {
+            width: 100%;
+            background: transparent;
+            border: 1px solid #2A292D;
+            padding: 13px 20px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            border-radius: 10px;
+            color: #fff;
+            .email{
+                margin-bottom: 20px;
+            }
+            .name{
+                margin-bottom: 20px;
+            }
+        }
+        .message{
+            margin-top: 20px;
+        }
+    }
+    .contact_btn{
+        .main_btn{
+            background-color: #8670EF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 10px;
+            transition: .4s all ease;
+            &:hover{
+             background-color: gold;
+             color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+#cta_section{
+    padding: 50px 0;
+    .ctg_all{
+        background-color: #fff;
+        padding: 50px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px -5px #6b7d6f;
+        transform: translateY(-70%);
+    }
+    .contact_info{
+        .info_icon{
+            background: #8670EF;
+            border-radius: 12px;
+            width: 70px;
+            height: 70px;
+            // display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .contact_content{
+            p{
+                text-transform: uppercase;
+                font-weight: 600;
+                color: black;
+                margin-left: 16px;
+            }
+            h5{
+                font-size: 18px;
+                font-weight: 700;
+                margin-top: 10px;
+                margin-left: 16px;
+            }
+        }
+    }
+}

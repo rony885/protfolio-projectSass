@@ -1,0 +1,79 @@
+#about{
+    padding: 80px 0;
+    // background-color: $secondary;
+    .about_img{
+        background-color: #8670EF;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+        border-radius: 20px;
+    }
+    .about_me{
+        background-color: #fff;
+        padding: 80px 70px;
+        border-radius: 12px;
+        // width: 160%;
+        h6{
+            color: #8670EF;
+            font-size: 16px;
+            line-height: 20px;
+            font-family: "kumbh Sans", sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+         h2{
+            // width: 178%;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 55px;
+            font-family: "kumbh Sans", sans-serif;
+            margin: 20px 0;
+            color: #141417;
+        }
+        p{
+            font-family: "Kumbh Sans", sans-serif;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 25px;
+            color: #515151;
+        }
+        .about_btn{
+            .main_btn{
+               background-color: #8670EF;
+               color: #fff;
+               padding: 10px 20px;
+               border-radius: 10px;
+               transition: .4s all ease;
+               &:hover{
+                background-color: darkgoldenrod;
+               }
+            }
+            .work_btn{
+                cursor: pointer;
+                font-family: "Space Grotesk", sans-serif;
+                color: #141417;
+                font-size: 18px;
+                font-weight: 500;
+                margin-left: 20px;
+                // -webkit-transition: 0.5s;
+                // transition: 0.5s;
+            }
+        }
+        .about-info{
+            margin-top: 20px;
+            p {
+                font-family: "Kumbh Sans", sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 28px;
+                color: #515151;
+            }
+            h3{
+                font-size: 24px;
+                font-weight: 600;
+                font-family: sans-serif;
+            }
+        }
+    }
+}

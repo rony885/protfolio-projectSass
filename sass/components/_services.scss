@@ -1,0 +1,48 @@
+#services{
+    padding: 30px 0;
+    .service_title{
+        h2{
+          font-size: 50px;
+          text-align: center;
+          margin: auto;
+          font-family: 'Ubuntu';
+          font-weight: 700;
+          color: black;
+          margin-bottom: 20px;
+          position: relative;
+          &::before{
+            content: '';
+            position: absolute;
+            top: 85%;
+            left: 40%;
+            height: 3px;
+            width: 212px;
+            background-color: #4f1bc5;
+          }
+        }
+    }
+    .service_item{
+        padding: 20px;
+        border-radius: 10px;
+        background-color: $white-color;
+        transition: .4s all ease;
+        &:hover{
+            transform: translateY(-10px);
+        }
+        .service_icon{
+            color: #4f1bc5;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        h5{
+            font-size: 20px;
+            color: rgba(0, 0, 0, 0.753);
+            font-weight: 600;
+            font-family: 'Ubuntu';
+            margin-bottom: 15px;
+        }
+        p{
+            width: 101%;
+        }
+    }
+}

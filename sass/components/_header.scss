@@ -1,0 +1,59 @@
+@import'../variables/colors';
+
+#header{
+    background-color: $header-color;
+    padding: 5px 0;
+    .header_details{
+        display: flex;
+        justify-content: space-between;
+        .header_contact{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            color: $white-color;
+            font-weight: 700;
+            .i_fb{
+                font-size: 15px;
+                font-weight: 700;  
+            }
+            h3{
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+    .header_email{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+        color: $white-color;
+        .i_email{
+            font-size: 15px;
+            font-weight: 700;
+        }
+        h3{
+            font-size: 15px;
+            font-weight: 700; 
+        }
+    }
+    .button_areas{
+        a{
+            // border: 1px solid red;
+            background-color: $white-color;
+            color: red;
+            line-height: 10px;
+            text-align: center;
+            padding: 12px 20px;
+            border-radius: 10px;
+            margin-top: 2px;
+            font-size: 15px;
+            font-weight: 700;
+            font-family: sans-serif;
+            transition: .4s all ease;
+            &:hover{
+                color: white;
+                background: black;
+            }
+        }
+    }
+}

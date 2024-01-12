@@ -1,0 +1,609 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  background-color: rgba(38, 38, 38, 0.9333333333);
+  padding: 5px 0;
+}
+#header .header_details {
+  display: flex;
+  justify-content: space-between;
+}
+#header .header_details .header_contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: #fff;
+  font-weight: 700;
+}
+#header .header_details .header_contact .i_fb {
+  font-size: 15px;
+  font-weight: 700;
+}
+#header .header_details .header_contact h3 {
+  font-size: 15px;
+  font-weight: 700;
+}
+#header .header_email {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+  color: #fff;
+}
+#header .header_email .i_email {
+  font-size: 15px;
+  font-weight: 700;
+}
+#header .header_email h3 {
+  font-size: 15px;
+  font-weight: 700;
+}
+#header .button_areas a {
+  background-color: #fff;
+  color: red;
+  line-height: 10px;
+  text-align: center;
+  padding: 12px 20px;
+  border-radius: 10px;
+  margin-top: 2px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: sans-serif;
+  transition: 0.4s all ease;
+}
+#header .button_areas a:hover {
+  color: white;
+  background: black;
+}
+
+#main_menu {
+  background-color: #141318;
+  padding: 20px 0;
+}
+#main_menu .logo {
+  color: darkorange;
+  font-size: 50px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+}
+#main_menu ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.4s all ease;
+}
+#main_menu ul li a:hover {
+  color: #4f1bc5;
+}
+#main_menu .dropdown-menu a {
+  background-color: black;
+}
+
+#banner {
+  background-color: #141318;
+  padding: 50px 0;
+}
+#banner .hero_content p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "kumbh Sans", sans-serif;
+  line-height: 28px;
+  color: #fff;
+}
+#banner .banner_title h1 {
+  width: 118%;
+  font-size: 63px;
+  font-weight: 600;
+  line-height: 70px;
+  margin: 20px 0;
+  color: #fff;
+}
+#banner .banner_title h1 span {
+  color: darkorange;
+}
+#banner p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fff;
+  margin: 30px 0;
+}
+#banner .hero_button i {
+  color: #fff;
+  padding: 15px 20px;
+  background-color: mediumslateblue;
+  border-radius: 10px;
+}
+#banner .hero_button a {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  margin-left: 10px;
+}
+#banner .hero_button .primary_btn {
+  font-size: 18px;
+  color: #fff;
+  background-color: darkorange;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  transition: 0.4s all ease;
+}
+#banner .hero_button .primary_btn:hover {
+  background-color: mediumslateblue;
+}
+#banner .right_img {
+  width: 100%;
+}
+#banner .right_img img {
+  width: 82%;
+  height: 270px;
+  margin-left: 68px;
+  border-radius: 10px;
+}
+
+#about {
+  padding: 80px 0;
+}
+#about .about_img {
+  background-color: #8670EF;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border-radius: 20px;
+}
+#about .about_me {
+  background-color: #fff;
+  padding: 80px 70px;
+  border-radius: 12px;
+}
+#about .about_me h6 {
+  color: #8670EF;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "kumbh Sans", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#about .about_me h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 55px;
+  font-family: "kumbh Sans", sans-serif;
+  margin: 20px 0;
+  color: #141417;
+}
+#about .about_me p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #515151;
+}
+#about .about_me .about_btn .main_btn {
+  background-color: #8670EF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.4s all ease;
+}
+#about .about_me .about_btn .main_btn:hover {
+  background-color: darkgoldenrod;
+}
+#about .about_me .about_btn .work_btn {
+  cursor: pointer;
+  font-family: "Space Grotesk", sans-serif;
+  color: #141417;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+#about .about_me .about-info {
+  margin-top: 20px;
+}
+#about .about_me .about-info p {
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #515151;
+}
+#about .about_me .about-info h3 {
+  font-size: 24px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+#services {
+  padding: 30px 0;
+}
+#services .service_title h2 {
+  font-size: 50px;
+  text-align: center;
+  margin: auto;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  color: black;
+  margin-bottom: 20px;
+  position: relative;
+}
+#services .service_title h2::before {
+  content: "";
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  height: 3px;
+  width: 212px;
+  background-color: #4f1bc5;
+}
+#services .service_item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: 0.4s all ease;
+}
+#services .service_item:hover {
+  transform: translateY(-10px);
+}
+#services .service_item .service_icon {
+  color: #4f1bc5;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+#services .service_item h5 {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.753);
+  font-weight: 600;
+  font-family: "Ubuntu";
+  margin-bottom: 15px;
+}
+#services .service_item p {
+  width: 101%;
+}
+
+#skills {
+  margin: 50px 0;
+  padding: 100px 0;
+  background: url(../images/skill-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+#skills .skill_title h6 {
+  color: #4f1bc5;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 28px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+#skills .text_white {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 60px;
+  color: #fff;
+  font-family: sans-serif;
+  margin: 20px 0;
+  text-align: center;
+}
+#skills .rony_skill .skill_item .skill_all {
+  height: 190px;
+  border: 1px solid #adb5bd;
+  background: rgba(255, 255, 255, 0.0705882353);
+  text-align: center;
+  padding: 23px 20px;
+  border-radius: 42%;
+  margin-bottom: 10px;
+}
+#skills .rony_skill .skill_item .skill-icon {
+  margin-bottom: 10px;
+}
+#skills .rony_skill .skill_item .skill_number {
+  color: #fff;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#skills .rony_skill .skill_item p {
+  color: #fff;
+  font-size: 25px;
+  font-family: "Ubntu";
+  font-weight: 600;
+  text-align: center;
+}
+
+#portfolio {
+  padding: 50px 0;
+}
+#portfolio .portfolio_title h6 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: "Ubuntu";
+  color: #8670EF;
+  text-align: center;
+  text-transform: capitalize;
+}
+#portfolio .portfolio_title p {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 50px;
+  margin: 20px 0;
+  color: #141417;
+  text-align: center;
+  font-family: sans-serif;
+}
+#portfolio .portfolio_items {
+  width: 50%;
+  text-align: center;
+  margin-left: 300px;
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  padding: 14px 10px;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px -5px #6b7d6f;
+  margin-bottom: 50px;
+}
+#portfolio .portfolio_items li {
+  display: inline-block;
+  margin-right: 50px;
+  text-align: center;
+}
+#portfolio .portfolio_items li a {
+  color: rgba(20, 20, 23, 0.6431372549);
+  font-family: sans-serif;
+  font-weight: 600;
+}
+#portfolio .portfolio_item {
+  display: flex;
+  padding: 30px;
+  border: 1px solid rgba(128, 128, 128, 0.253);
+  box-shadow: 0 0 10px -5px #6b7d6f;
+  background-color: #fff;
+  border-radius: 10px;
+}
+#portfolio span {
+  border-radius: 10px;
+  background-color: #8670EF;
+  padding: 15px 20px;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #141417;
+  font-weight: 500;
+  font-family: sans-serif;
+  text-align: center;
+  transition: 0.4s all ease;
+}
+#portfolio span:hover {
+  background-color: darkorange;
+}
+#portfolio h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #141417;
+  margin: 30px 10px;
+}
+#portfolio p {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  line-height: 25px;
+  color: #6b7d6f;
+  margin: 0 10px;
+}
+#portfolio .portfolio_bg img {
+  border-radius: 20px;
+}
+
+#blog {
+  padding: 50px 0;
+}
+#blog .blog_title {
+  position: relative;
+}
+#blog .blog_title h6 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: "Ubuntu";
+  color: #8670EF;
+  text-align: center;
+  text-transform: capitalize;
+}
+#blog .blog_title .title_img {
+  position: absolute;
+  top: 20%;
+  left: 0%;
+}
+#blog .blog_title p {
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 50px;
+  margin: 20px 0;
+  color: #141417;
+  text-align: center;
+  font-family: sans-serif;
+  width: 40%;
+  margin-left: 323px;
+  margin-bottom: 50px;
+}
+#blog .blog_details {
+  padding: 4px;
+  width: 105%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px -5px #6b7d6f;
+}
+#blog .blog_details .blog-img {
+  width: 100%;
+  text-align: center;
+}
+#blog .blog_details .blog_content h6 {
+  margin: 20px 0;
+  color: rgba(0, 0, 0, 0.774);
+  font-weight: 600;
+  font-family: sans-serif;
+}
+#blog .blog_details .blog_content h5 {
+  font-family: sans-serif;
+  font-weight: 20px;
+  color: #141417;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+#blog .blog_details .blog_content p {
+  margin-bottom: 20px;
+}
+#blog .blog_details .blog_content .list_icon .facebook {
+  transition: 0.4s;
+}
+
+#contact {
+  padding: 100px;
+  background-color: #141318;
+}
+#contact .contact_title h6 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  font-family: "Ubuntu";
+  color: #8670EF;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+#contact .contact_title h2 {
+  font-size: 60px;
+  font-family: "Ubuntu";
+  font-weight: 600;
+  color: #fff;
+}
+#contact .contact_form {
+  margin-bottom: 25px;
+}
+#contact .contact_form input, #contact .contact_form textarea, #contact .contact_form select {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #2A292D;
+  padding: 13px 20px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: 0.3s;
+  border-radius: 10px;
+  color: #fff;
+}
+#contact .contact_form input .email, #contact .contact_form textarea .email, #contact .contact_form select .email {
+  margin-bottom: 20px;
+}
+#contact .contact_form input .name, #contact .contact_form textarea .name, #contact .contact_form select .name {
+  margin-bottom: 20px;
+}
+#contact .contact_form .message {
+  margin-top: 20px;
+}
+#contact .contact_btn .main_btn {
+  background-color: #8670EF;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.4s all ease;
+}
+#contact .contact_btn .main_btn:hover {
+  background-color: gold;
+  color: black;
+}
+
+#cta_section {
+  padding: 50px 0;
+}
+#cta_section .ctg_all {
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px -5px #6b7d6f;
+  transform: translateY(-70%);
+}
+#cta_section .contact_info .info_icon {
+  background: #8670EF;
+  border-radius: 12px;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+}
+#cta_section .contact_info .contact_content p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+  margin-left: 16px;
+}
+#cta_section .contact_info .contact_content h5 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-left: 16px;
+}
+
+#footer {
+  padding: 50px 0;
+  background-color: #141318;
+}
+#footer .footer_logo h1 {
+  color: darkorange;
+  font-size: 50px;
+  font-family: "Ubuntu";
+  font-weight: 700;
+  text-align: center;
+}
+#footer .footer_menu {
+  text-align: center;
+}
+#footer .footer_menu li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 28px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+#footer .footer_menu li a {
+  color: #fff;
+}
+#footer .social_area {
+  text-align: center;
+}
+#footer .social_area a {
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background: #18222B;
+}/*# sourceMappingURL=main.css.map */

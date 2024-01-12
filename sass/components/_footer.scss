@@ -1,0 +1,39 @@
+#footer{
+    padding: 50px 0;
+    background-color: $black-color;
+    .footer_logo{
+        h1{
+            color: darkorange;
+            font-size: 50px;
+            font-family: 'Ubuntu';
+            font-weight: 700;
+            text-align: center;
+            // margin-bottom: 20px;
+        }
+    }
+    .footer_menu{
+        text-align: center;
+        li{
+            display: inline-block;
+            padding: 10px;
+            font-size: 18px;
+            line-height: 28px;
+            font-family: "Kumbh Sans", sans-serif;
+            a{
+                color: #fff;
+            }
+        }
+    }
+    .social_area{
+        // display: inline-block;
+        text-align: center;
+        // border-radius: 50%;
+        
+        a{
+            padding: 10px;
+            border-radius: 50%;
+            color: #fff;
+            background: #18222B;
+        }
+    }
+}
